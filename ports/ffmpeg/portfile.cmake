@@ -197,7 +197,7 @@ else()
 endif()
 
 if("avcodec" IN_LIST FEATURES)
-    set(OPTIONS "${OPTIONS} --enable-avcodec")
+    set(OPTIONS "${OPTIONS} --enable-avcodec --enable-libv4l2")
     set(ENABLE_AVCODEC ON)
     list(APPEND FFMPEG_PKGCONFIG_MODULES libavcodec)
 else()
