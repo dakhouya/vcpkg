@@ -688,10 +688,7 @@
       ]
     },
     "v4l2": {
-      "description": "v4l2 support",
-      "dependencies": [
-        "v4l2"
-      ]
+      "description": "v4l2 support"
     }
   }
 }
